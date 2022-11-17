@@ -1,0 +1,58 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Logs
+/emeraldvite/logs
+/emeraldvite/*.log
+/emeraldvite/npm-debug.log*
+/emeraldvite/yarn-debug.log*
+/emeraldvite/yarn-error.log*
+/emeraldvite/pnpm-debug.log*
+/emeraldvite/lerna-debug.log*
+
+/emeraldvite/node_modules
+/emeraldvite/dist
+/emeraldvite/dist-ssr
+/emeraldvite/*.local
+
+# Editor directories and files
+/emeraldvite/.vscode/*
+/emeraldvite/!.vscode/extensions.json
+/emeraldvite/.idea
+/emeraldvite/.DS_Store
+/emeraldvite/*.suo
+/emeraldvite/*.ntvs*
+/emeraldvite/*.njsproj
+/emeraldvite/*.sln
+/emeraldvite/*.sw?
